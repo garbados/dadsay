@@ -35,7 +35,7 @@ Dadsay is just one file: `dadsay.py`. You will need [Python 3](https://www.pytho
 git clone https://github.com/garbados/dadsay
 
 # add an alias for dadsay to .bash_aliases
-echo 'alias dadsay="/PATH/TO/dadsay"' >> ~/.bash_aliases
+echo "alias dadsay='$(pwd)/dadsay/dadsay.py'" >> ~/.bash_aliases
 
 # re-initialize the terminal environment
 exec bash
@@ -46,7 +46,7 @@ dadsay see you next fall
 
 ## Contributing
 
-Contributions welcome! Please [file an issue](https://github.com/garbados/dadsay/issues) for bug reports, feature requests, and usage questions. If you'd like to add more joke, send us a [pull request](https://github.com/garbados/dadsay/pulls)! Thanks for trying dadsay :)
+Contributions welcome! Please [file an issue](https://github.com/garbados/dadsay/issues) for bug reports, feature requests, and usage questions. If you'd like to add more jokes, send us a [pull request](https://github.com/garbados/dadsay/pulls)! Thanks for trying dadsay :)
 
 ## License
 
